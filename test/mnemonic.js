@@ -6,7 +6,8 @@ var should = chai.should();
 var owsCommon = require('@owstack/ows-common');
 var bip39_vectors = require('./data/fixtures.json');
 var errors = owsCommon.errors;
-var Mnemonic = require('..');
+var mnemonicLib = require('..');
+var Mnemonic = mnemonicLib.mnemonic;
 
 describe('Mnemonic', function() {
 
