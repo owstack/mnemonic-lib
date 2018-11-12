@@ -1,11 +1,7 @@
 'use strict';
 
-var mnemonicLib = {};
+var Mnemonic = require('./lib/mnemonic');
 
-// module information
-mnemonicLib.version = 'v' + require('./package.json').version;
+Mnemonic.version = 'v' + require('./package.json').version;
 
-// main mnemonic library
-mnemonicLib.mnemonic = require('./lib/mnemonic');
-
-module.exports = mnemonicLib;
+module.exports = Mnemonic;
