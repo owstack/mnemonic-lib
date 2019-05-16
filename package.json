@@ -1,6 +1,6 @@
 {
   "name": "@owstack/mnemonic-lib",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "BIP39 Mnemonics support.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "encryption"
   ],
   "dependencies": {
-    "@owstack/key-lib": "^0.0.40",
+    "@owstack/key-lib": "^0.0.41",
     "@owstack/ows-common": "^0.0.17",
     "acorn": "^6.1.1",
     "unorm": "^1.3.3"
